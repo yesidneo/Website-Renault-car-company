@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background: url(../img/slides/backRenaultWire.svg);
+ 
+ height: 100%;
+ 
+}
+.nav{
+    background: #ffffff;
+}
+.slid{
+
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+background: url(../img/slides/backRenault.svg);
+background-repeat: no-repeat;
+z-index: -1;
+
+}
+
+.sect{
+  
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    
+   
+    
+}
+
+.hero {
+    height: 60%;
+    width: 100%;
+    position: relative;
+     
+}
+ .hero img{
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+
+ }
+
+
+ .headline{
+     position: absolute;
+     top: 70%;
+     left: 30%;
+     background: rgba(0, 0, 0, 0.3 );
+     text-align: right;
+     font-size: 100px;
+     transform: translate(-20%, -70%);
+      color: #ffffff; 
+      z-index: 3;
+ }
+
+ .hero::after{
+     content:"";
+     background: url(../img/slides/backRenaultWire2.svg);
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     opacity: 0.5;
+     
+ }
+
+
+.row.neo{
+    height: 500px;
+   
+}
+
+
+.uno{
+    margin-top: 55px;
+}
+
+.dos{
+    margin-top: 55px;
+}
+
+.tres{
+    margin-top: 55px;
+}
+.cuatro{
+    margin-top: 55px;
+}
+.send{
+    margin-top: 55px;
+}
+
+
+
+.formu{
+  
+  width: 40%;
+  height: 500px;
+  position: relative;
+  padding: 0px;
+  
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3 );
+
+}
+
+.row.one{
+  width: 100%;
+  height: 500px;
+  padding: 50px;
+
+  
+}
+
+
+
+.form-consulta{
+  height: 400px;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.3 );
+
+}
+
+.input-field{
+  margin: 40px; 
+}
+
+
+.butn-form{
+  
+  padding: 10px; 
+  background: black;
+  color: #ffffff;
+}
+
+
+.bton {
+  text-align: center;
+}
+
+
+.header-nav.header-nav-top-line {
+ 
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3 );
+}
+
+
+
+nav.z-depth-0 {
+  background: transparent;
+  color: black;
+ 
+
+}
+
+nav.z-depth-0 a {
+ 
+
+  color: black;
+}
